@@ -1,0 +1,9 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Class-StateMachine-Declarative.t
+lib/Class/StateMachine/Declarative.pm
+t/pods.t
+lib/Class/StateMachine/Declarative/Builder.pm
+META.yml                                 Module meta-data (added by MakeMaker)
