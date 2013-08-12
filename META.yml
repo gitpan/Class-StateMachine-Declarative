@@ -1,23 +1,23 @@
---- #YAML:1.0
-name:               Class-StateMachine-Declarative
-version:            0.01
-abstract:           ~
+---
+abstract: unknown
 author:
-    - Salvador Fandiño <sfandino@yahoo.com>
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Salvador Fandiño <sfandino@yahoo.com>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:
-    Class::StateMachine:  0.23
-    mro:                  0
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.57_05
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.72, CPAN::Meta::Converter version 2.120351'
+license: unknown
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Class-StateMachine-Declarative
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Class::StateMachine: 0.23
+  mro: 0
+version: 0.02
