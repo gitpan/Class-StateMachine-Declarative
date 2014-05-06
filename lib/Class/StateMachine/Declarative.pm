@@ -2,7 +2,7 @@ package Class::StateMachine::Declarative;
 
 sub _clean_eval { eval shift }
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use 5.010;
 
@@ -187,7 +187,7 @@ executed will be that for that state if any.
 
 =item jump => $target_state
 
-When the object enters in this state it inmediatelly changes its state
+When the object enters in this state it immediately changes its state
 to the given one.
 
 =item substates => \@substates
@@ -196,7 +196,7 @@ An state can have substates.
 
 Most actions are inherited from the state into the substates. For
 instance, a transition defined in some state will also happen in its
-substates unless it is overrided by another declaration.
+substates unless it is overridden by another declaration.
 
 The state C<__any__> is an special state that is considered the parent
 of all the other states.
@@ -209,7 +209,7 @@ L<Class::StateMachine>.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2011-2013 by Salvador FandiE<ntilde>o <sfandino@yahoo.com>
+Copyright (C) 2011-2014 by Salvador FandiE<ntilde>o <sfandino@yahoo.com>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.12.4 or,
